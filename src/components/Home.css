@@ -1,0 +1,45 @@
+/* home.css */
+
+.carousel-item img {
+    height: 600px; /* Adjust the height as needed */
+    object-fit: cover; /* Ensure the image covers the specified height */
+  }
+.carousel-caption {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(59, 102, 136, 0.511);
+    z-index: 1;
+    color: rgb(250, 249, 249);
+  }
+  
+  .carousel-caption h1 {
+    font-family: 'Your Font Name', sans-serif; /* Specify your desired font family */
+    font-weight: bold; /* Add your desired font weight */
+    font-size: 20px; /* Adjust the font size as needed */
+    color: rgb(252, 250, 250); /* Change the font color to your preferred color */
+    text-transform: uppercase;
+  }
+  
+  .carousel-caption h1 {
+    font-size: 16px;
+  }
+  
+  @media (min-width: 768px) {
+    .carousel-caption h1 {
+      font-size: 18px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .carousel-caption h1 {
+      font-size: 24px;
+    }
+  }
+  
+  
